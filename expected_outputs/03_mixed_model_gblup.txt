@@ -1,0 +1,6 @@
+Python 3.12.13
+Platform Linux-6.18.35-x86_64-with-glibc2.39
+numpy 2.3.5 pandas 2.2.3 scikit-learn 1.8.0
+SEED 302
+G shape (260, 260) diag mean 1.005 offdiag mean 0.0002
+lambda 0.452 estimated h2 0.689 test phenotype r 0.259 GEBV accuracy 0.234

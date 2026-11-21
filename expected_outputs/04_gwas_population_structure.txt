@@ -1,0 +1,8 @@
+Python 3.12.13
+Platform Linux-6.18.35-x86_64-with-glibc2.39
+numpy 2.3.5 pandas 2.2.3 scikit-learn 1.8.0
+SEED 401
+P-value median naive/PC: 0.0328 0.5034
+P-value 1% quantile naive/PC: 0.0 0.014868
+false positives naive/PC: 158 1
+causal rank naive/PC: 1 1

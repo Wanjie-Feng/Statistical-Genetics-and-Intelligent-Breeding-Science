@@ -1,0 +1,16 @@
+Python 3.12.13
+numpy 2.3.5 pandas 2.2.3
+SEED 1803
+feasible_candidates 122 of 240
+EDIT_ONLY n 20 violations 10 yield 0.972 protein -0.406 maturity_days 112.41 edit_gain 0.584 edit_lcb 0.412
+INTEGRATED n 20 violations 0 yield 1.185 protein 0.506 maturity_days 111.09 edit_gain 0.447 edit_lcb 0.277
+selected_overlap 6 of 20
+line  index  gebv_yield  gebv_protein  gebv_maturity_days  edit_gain  edit_lcb  offtarget_risk
+L217  1.757       1.970        -0.301             101.048      0.694     0.599           0.275
+L020  1.391       2.769        -0.278             113.322      0.604     0.436           0.210
+L227  1.163       2.038         0.031             115.815      0.670     0.571           0.156
+L084  1.128       1.555         0.829             112.492      0.601     0.389           0.296
+L056  0.901      -0.001         2.260             109.919      0.567     0.370           0.424
+L004  0.847       0.442         1.034             106.083      0.353     0.239           0.075
+L148  0.830       0.573         1.370             111.631      0.453     0.344           0.269
+L234  0.814       1.130         0.246             111.070      0.532     0.333           0.244

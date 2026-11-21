@@ -1,0 +1,12 @@
+Python 3.12.13
+Platform Linux-6.18.35-x86_64-with-glibc2.39
+numpy 2.3.5 pandas 2.2.3 scikit-learn 1.8.0
+SEED 1602
+population/markers/QTL 500 1200 30
+train/test 350 150 median_MAF 0.306
+1x_lowcov_covered_ge1 0.632
+                strategy  markers  missing  mean_best_QTL_r2  QTL_frac_r2_ge_0.8  test_r
+                SNP_chip      300     0.01             0.824               0.600   0.329
+                     GBS      420     0.22             0.673               0.033   0.185
+            target_panel      180     0.02             0.792               0.633   0.404
+lpWGS_1x_sitewise_dosage     1200     0.00             0.384               0.000   0.325

@@ -1,0 +1,15 @@
+Python 3.12.13
+Platform Linux-6.18.35-x86_64-with-glibc2.39
+numpy 2.3.5 pandas 2.2.3 scikit-learn 1.8.0
+SEED 1301
+split sizes train/validation/test 270 90 120
+Ridge candidate 5 validation RMSE 2.727
+Ridge candidate 40 validation RMSE 1.981
+Ridge candidate 150 validation RMSE 1.694
+Ridge selected 150
+MLP candidate ((32,), 0.02) validation RMSE 1.9
+MLP candidate ((48,), 0.02) validation RMSE 1.841
+MLP candidate ((48,), 0.1) validation RMSE 1.84
+MLP selected ((48,), 0.1)
+Ridge development r 0.896 test r 0.428 test RMSE 1.749
+MLP development r 0.926 test r 0.257 test RMSE 1.996

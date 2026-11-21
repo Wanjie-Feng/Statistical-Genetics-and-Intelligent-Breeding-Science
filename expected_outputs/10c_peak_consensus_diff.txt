@@ -1,0 +1,11 @@
+Python 3.12.13
+Platform Linux-6.18.35-x86_64-with-glibc2.39
+numpy 2.3.5 pandas 2.2.3 scikit-learn 1.8.0
+SEED 1003
+binary peak-set Jaccard replicate0/1 0.826
+consensus universe peaks 312 true DA represented 47 of 55
+binary_presence_Fisher discoveries 0 TP 0 FP 0 recall 0.0
+unified_counts_teaching_test discoveries 29 TP 29 FP 0 recall 0.527
+count replicate correlations group0 [[1.    0.94  0.93 ]
+ [0.94  1.    0.933]
+ [0.93  0.933 1.   ]]

@@ -1,0 +1,10 @@
+Python 3.12.13
+Platform Linux-6.18.35-x86_64-with-glibc2.39
+numpy 2.3.5 pandas 2.2.3 scikit-learn 1.8.0
+SEED 901
+sample missing range [0.  0.1]
+feature missing median 0.042
+pooled-QC mean signal vs run r -0.999
+PCA PC1 correlations: batch 0.361 run 0.13 treatment -0.34
+leaky full-data preprocessing/selection accuracy 0.738
+train-only preprocessing/selection accuracy 0.69

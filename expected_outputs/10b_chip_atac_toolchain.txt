@@ -1,0 +1,11 @@
+Python 3.12.13
+Platform Linux-6.18.35-x86_64-with-glibc2.39
+numpy 2.3.5 pandas 2.2.3 scikit-learn 1.8.0
+SEED 1002
+raw fragments 9000 deduplicated 8000 duplicate fraction 0.111
+candidate peaks 30 peak-count replicate correlation 0.99
+peak enrichment over random expectation 7.89
+TSS ± 250 fragment starts 242
+TSS ± 500 fragment starts 362
+TSS ± 1000 fragment starts 448
+TSS ± 2000 fragment starts 498

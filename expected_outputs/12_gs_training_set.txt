@@ -1,0 +1,11 @@
+Python 3.12.13
+Platform Linux-6.18.35-x86_64-with-glibc2.39
+numpy 2.3.5 pandas 2.2.3 scikit-learn 1.8.0
+SEED 1201
+preset marker-effect correlation 0.35 realized 0.367
+phenotypic SD A/B 0.719 0.714
+G shape: (210, 210) diag mean: 1.0
+allele-frequency RMS distance: within-A 0.039 A-vs-B 0.152
+         scenario  predictive_ability  GEBV_accuracy  TBV_RMSE
+ A random holdout               0.382          0.473     0.510
+train A -> test B               0.188          0.209     0.703

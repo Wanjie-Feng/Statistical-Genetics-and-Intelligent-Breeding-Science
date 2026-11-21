@@ -1,0 +1,14 @@
+Python 3.12.13
+numpy 2.3.5 pandas 2.2.3
+SEED 1802
+independent_events 16 event_environment_cells 48 raw_observations 288
+             estimate  ci_low  ci_high
+intercept       4.991   4.716    5.249
+edit            0.619   0.242    0.984
+env1            0.588   0.417    0.757
+env2           -0.193  -0.463    0.060
+edit_x_env1    -0.391  -0.675   -0.125
+edit_x_env2     0.201  -0.113    0.531
+all_event_mean_difference 0.555
+best_edited_event_minus_control_mean 0.943
+mean_molecular_shift edited/control [0.043 0.715]

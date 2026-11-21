@@ -1,0 +1,35 @@
+Python 3.12.13
+Platform Linux-6.18.35-x86_64-with-glibc2.39
+numpy 2.3.5 pandas 2.2.3 scikit-learn 1.8.0
+SEED 101
+sample key unique: True
+genotype missing cells: 1
+missing rate by marker:
+M01    0.000
+M02    0.000
+M03    0.000
+M04    0.125
+M05    0.000
+M06    0.000
+sample_id population  phenotype
+      S01          A   8.419695
+      S02          A   5.930749
+      S03          A  11.206603
+      S04          A  11.488589
+      S05          B   9.380626
+      S06          B  10.734643
+      S07          B  13.420789
+      S08          B  12.121596
+aligned order: ['S01', 'S02', 'S03', 'S04', 'S05', 'S06', 'S07', 'S08']
+long rows: 48 round-trip equal: True
+sample_id marker  dosage
+      S01    M01     2.0
+      S02    M01     2.0
+      S03    M01     1.0
+      S04    M01     1.0
+      S05    M01     2.0
+      S06    M01     1.0
+      S07    M01     0.0
+      S08    M01     1.0
+      S01    M02     0.0
+      S02    M02     1.0

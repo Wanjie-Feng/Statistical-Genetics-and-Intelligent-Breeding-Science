@@ -1,0 +1,10 @@
+Python 3.12.13
+Platform Linux-6.18.35-x86_64-with-glibc2.39
+numpy 2.3.5 pandas 2.2.3 scikit-learn 1.8.0
+SEED 1001
+treatment-batch r 0.4 true DA 45 batch-affected 60
+library size range 14766 32425
+PC1 corr treatment/batch 0.523 0.987
+ignore_batch discoveries 54 TP 45 FP 9
+include_batch discoveries 46 TP 45 FP 1
+accessibility-expression r 0.498 does not establish causality

@@ -1,0 +1,34 @@
+Python 3.12.13
+Platform Linux-6.18.35-x86_64-with-glibc2.39
+numpy 2.3.5 pandas 2.2.3 scikit-learn 1.8.0
+SEED 702
+action
+keep      98
+warn      12
+delete    10
+Name: count, dtype: int64
+feature  repeatability_ICC  max_abs_corr  batch_shift_z action            reason
+   F098              0.964         0.785          0.040   keep              none
+   F099              0.967         0.821          0.010   keep              none
+   F100              0.000         0.204          0.235 delete low_repeatability
+   F101              0.153         0.349          0.190 delete low_repeatability
+   F102              0.000         0.308          0.125 delete low_repeatability
+   F103              0.000         0.244          0.073 delete low_repeatability
+   F104              0.000         0.308          0.165 delete low_repeatability
+   F105              0.000         0.360          0.115 delete low_repeatability
+   F106              0.000         0.326          0.057 delete low_repeatability
+   F107              0.000         0.263          0.112 delete low_repeatability
+   F108              0.056         0.279          0.050 delete low_repeatability
+   F109              0.088         0.244          0.056 delete low_repeatability
+   F110              0.975         1.000          0.035   warn    near_duplicate
+   F111              0.972         1.000          0.004   warn    near_duplicate
+   F112              0.926         1.000          0.008   warn    near_duplicate
+   F113              0.949         1.000          0.003   warn    near_duplicate
+   F114              0.914         1.000          0.030   warn    near_duplicate
+   F115              0.535         0.682          1.067   warn       batch_shift
+   F116              0.818         0.644          0.665   keep              none
+   F117              0.851         0.833          0.619   keep              none
+   F118              0.771         0.679          0.754   warn       batch_shift
+   F119              0.815         0.771          0.672   keep              none
+PCA explained variance first5 [0.179 0.166 0.144 0.106 0.098] cumulative 0.693
+correlation-matrix condition number 18062039.1

@@ -1,0 +1,15 @@
+Python 3.12.13
+Platform Linux-6.18.35-x86_64-with-glibc2.39
+numpy 2.3.5 pandas 2.2.3 scikit-learn 1.8.0
+SEED 502
+ Chr     Pos    NegLog10P  SmoothNegLog10P
+   1 4176000  5.878     11.319
+   1 4200000 21.071     11.201
+   1 4164000 12.757     11.173
+   1 4188000  8.107     11.157
+   1 4212000 14.848     11.012
+   1 4140000  8.401     10.946
+   1 4224000  8.090     10.827
+   1 4152000 10.025     10.634
+peak 4176000 error bp 24000
+wrote outputs_05b/gen.csv outputs_05b/Final_result.csv

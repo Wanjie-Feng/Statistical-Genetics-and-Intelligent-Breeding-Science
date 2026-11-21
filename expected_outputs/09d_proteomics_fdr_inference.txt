@@ -1,0 +1,16 @@
+Python 3.12.13
+Platform Linux-6.18.35-x86_64-with-glibc2.39
+numpy 2.3.5 pandas 2.2.3 scikit-learn 1.8.0
+SEED 904
+ score_cutoff  target_winners  decoy_winners  FDR_est
+          5.5             139              0   0.0072
+          5.0             193              3   0.0207
+          4.5             249             14   0.0602
+          4.0             300             37   0.1267
+target PSM winners at q<=1% 146 score threshold 5.455
+         any_peptide  unique_peptide  report_with_unique_rule
+protein                                                      
+P1                 3               2                     True
+P2                 2               1                     True
+P3                 1               0                    False
+P4                 2               1                     True

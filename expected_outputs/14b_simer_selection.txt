@@ -1,0 +1,32 @@
+Python 3.12.13
+Platform Linux-6.18.35-x86_64-with-glibc2.39
+numpy 2.3.5 pandas 2.2.3 scikit-learn 1.8.0
+SEED 1402
+replicates/population/markers/generations 20 500 180 6
+base genetic correlation 0.468 index weights [0.65 0.35]
+mean trajectory across 20 replicates
+    scenario  generation  gain_trait1_sd  gain_trait2_sd  heterozygosity  low_MAF_fraction
+no_selection           0           0.000           0.000           0.413             0.000
+no_selection           1           0.015           0.011           0.413             0.000
+no_selection           2           0.017           0.012           0.412             0.000
+no_selection           3           0.015           0.009           0.412             0.000
+no_selection           4           0.014          -0.001           0.411             0.000
+no_selection           5          -0.002          -0.019           0.410             0.000
+select_top10           0           0.000           0.000           0.413             0.000
+select_top10           1           1.264           0.973           0.406             0.000
+select_top10           2           2.560           1.893           0.398             0.004
+select_top10           3           3.793           2.801           0.387             0.016
+select_top10           4           4.964           3.728           0.372             0.031
+select_top10           5           6.125           4.609           0.357             0.051
+select_top20           0           0.000           0.000           0.413             0.000
+select_top20           1           1.023           0.803           0.410             0.000
+select_top20           2           2.043           1.584           0.404             0.001
+select_top20           3           3.062           2.350           0.398             0.003
+select_top20           4           4.038           3.083           0.389             0.011
+select_top20           5           4.957           3.801           0.378             0.024
+final generation summary
+              gain1_mean  gain1_sd  gain2_mean  gain2_sd  heterozygosity_mean  low_MAF_mean
+scenario                                                                                   
+no_selection      -0.002     0.082      -0.019     0.074                0.410         0.000
+select_top10       6.125     0.278       4.609     0.249                0.357         0.051
+select_top20       4.957     0.159       3.801     0.154                0.378         0.024

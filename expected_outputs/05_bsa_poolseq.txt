@@ -1,0 +1,13 @@
+Python 3.12.13
+Platform Linux-6.18.35-x86_64-with-glibc2.39
+numpy 2.3.5 pandas 2.2.3 scikit-learn 1.8.0
+SEED 501
+  pos  depth_hi  depth_lo  SNP_index_hi  SNP_index_lo   delta    ED4
+    0        57        53        0.6491        0.8868 -0.2377 0.0128
+10000        58        56        0.5517        0.5000  0.0517 0.0000
+20000        57        48        0.3509        0.5833 -0.2325 0.0117
+30000        62        66        0.5161        0.4545  0.0616 0.0001
+40000        62        51        0.7097        0.6863  0.0234 0.0000
+window 100000 peak 4555000 localization error bp 55000
+window 300000 peak 4655000 localization error bp 155000
+window 800000 peak 4405000 localization error bp 95000

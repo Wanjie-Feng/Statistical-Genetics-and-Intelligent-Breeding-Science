@@ -1,0 +1,13 @@
+Python 3.12.13
+Platform Linux-6.18.35-x86_64-with-glibc2.39
+numpy 2.3.5 pandas 2.2.3 scikit-learn 1.8.0
+SEED 1302
+start loss 8.1531 final loss 0.5025 b 1.851 w 2.394
+split sizes train/validation/test 960 320 320
+C 0.1 validation average precision 0.151
+C 1 validation average precision 0.192
+C 10 validation average precision 0.194
+selected C 10 test positive prevalence 0.066
+majority-class accuracy baseline 0.934
+test accuracy 0.941 ROC AUC 0.686 average precision 0.22
+test precision 1.0 recall 0.095

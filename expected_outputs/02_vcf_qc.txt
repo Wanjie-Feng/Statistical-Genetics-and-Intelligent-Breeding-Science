@@ -1,0 +1,16 @@
+Python 3.12.13
+Platform Linux-6.18.35-x86_64-with-glibc2.39
+numpy 2.3.5 pandas 2.2.3 scikit-learn 1.8.0
+SEED 201
+ID  rs1  rs2  rs3  rs4
+S1  0.0  0.0  2.0  1.0
+S2  1.0  0.0  2.0  NaN
+S3  2.0  1.0  2.0  1.0
+S4  1.0  0.0  1.0  NaN
+S5  NaN  0.0  2.0  0.0
+SNP  missing_rate  ALT_AF   MAF  observed_het  keep
+rs1           0.2   0.500 0.500         0.500  True
+rs2           0.0   0.100 0.100         0.200  True
+rs3           0.0   0.900 0.100         0.200  True
+rs4           0.4   0.333 0.333         0.667 False
+kept: ['rs1', 'rs2', 'rs3']

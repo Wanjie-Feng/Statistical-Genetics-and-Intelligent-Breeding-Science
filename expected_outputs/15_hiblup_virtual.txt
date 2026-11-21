@@ -1,0 +1,17 @@
+Python 3.12.13
+Platform Linux-6.18.35-x86_64-with-glibc2.39
+numpy 2.3.5 pandas 2.2.3 scikit-learn 1.8.0
+SEED 1501
+population/markers/generations 320 400 5
+founders/last-generation 80 60
+A diagonal mean 1.008 mean inbreeding 0.0075
+phenotyped/test/genotyped/genotyped+phenotyped 260 60 180 120
+known teaching variance ratio lambda=sigma_e2/sigma_a2 1.346
+mean diagonal A/G_scaled/H 1.008 1.013 1.01
+PBLUP_A test_TBV_r 0.406 TBV_on_EBV_slope 0.97
+GBLUP_G test_TBV_r 0.415 TBV_on_EBV_slope 0.904
+SSGBLUP_H test_TBV_r 0.469 TBV_on_EBV_slope 1.028
+wrote outputs_15_hiblup/demo.phe columns ['id', 'sex', 'season', 'age', 'trait']
+wrote outputs_15_hiblup/demo.ped columns ['id', 'father', 'mother']
+wrote PLINK conversion inputs outputs_15_hiblup/geno.ped outputs_15_hiblup/geno.map
+test phenotype missing in exported demo.phe 60

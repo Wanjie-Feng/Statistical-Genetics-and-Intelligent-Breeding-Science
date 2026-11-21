@@ -1,0 +1,18 @@
+Python 3.12.13
+Platform Linux-6.18.35-x86_64-with-glibc2.39
+numpy 2.3.5 pandas 2.2.3 scikit-learn 1.8.0
+SEED 1702
+samples/markers/methylation_features 720 240 90
+environment_counts {0: 240, 1: 240, 2: 240}
+RANDOM_SPLIT
+            features  phenotype_r  TBV_r
+            SNP_only        0.340  0.638
+    methylation_only        0.488  0.063
+SNP_plus_methylation        0.603  0.495
+   LEAK_demo_illegal        0.959  0.609
+LEAVE_ENV2_OUT
+            features  phenotype_r  TBV_r
+            SNP_only        0.420  0.596
+    methylation_only        0.062  0.032
+SNP_plus_methylation        0.373  0.547
+   LEAK_demo_illegal        0.930  0.727

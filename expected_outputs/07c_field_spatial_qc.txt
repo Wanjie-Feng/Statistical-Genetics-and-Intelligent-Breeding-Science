@@ -1,0 +1,7 @@
+Python 3.12.13
+Platform Linux-6.18.35-x86_64-with-glibc2.39
+numpy 2.3.5 pandas 2.2.3 scikit-learn 1.8.0
+SEED 703
+randomized raw-vs-truth r 0.877 joint-spatial-adjusted r 0.919
+clustered raw-vs-truth r 0.817 joint-spatial-adjusted r 0.884
+设计解释：随机化降低基因型与空间环境系统混杂的风险；clustered布局故意把同一基因型的重复放在邻近位置，用来演示设计混杂。

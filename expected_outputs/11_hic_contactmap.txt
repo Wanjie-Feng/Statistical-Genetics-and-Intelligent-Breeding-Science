@@ -1,0 +1,24 @@
+Python 3.12.13
+Platform Linux-6.18.35-x86_64-with-glibc2.39
+numpy 2.3.5 pandas 2.2.3 scikit-learn 1.8.0
+SEED 1101
+contact matrix (100, 100) symmetric True zero fraction 0.017
+P(s) distance 1 mean contact 130.45
+P(s) distance 2 mean contact 90.02
+P(s) distance 5 mean contact 47.57
+P(s) distance 10 mean contact 27.11
+P(s) distance 20 mean contact 14.06
+compartment recovery r 0.91
+preset loop 20 35 raw 223 O/E 11.0
+preset loop 62 78 raw 212 O/E 10.57
+preset loop 72 90 raw 199 O/E 11.03
+top local-background loop candidates
+ local_enrichment  bin1  bin2    OE
+            10.06    20    35 11.00
+             9.99    62    78 10.57
+             9.92    72    90 11.03
+             3.19    10    93  2.49
+             3.03    25    77  2.31
+             2.98     5    79  2.89
+             2.84    14    93  2.42
+             2.83    27    86  2.64

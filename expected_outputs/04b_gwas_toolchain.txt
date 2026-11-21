@@ -1,0 +1,14 @@
+Python 3.12.13
+Platform Linux-6.18.35-x86_64-with-glibc2.39
+numpy 2.3.5 pandas 2.2.3 scikit-learn 1.8.0
+SEED 402
+wrote outputs_04b/demo.vcf
+samples >10% missing 6
+ marker  missing    MAF  HWE_p
+      0    0.075 0.2027 0.4901
+      1    0.000 0.4250 0.2434
+      2    0.050 0.1513 0.8164
+      3    0.050 0.1776 0.6364
+      4    0.075 0.4054 0.6862
+max |AF before-after mean imputation| 0.0
+wrote outputs_04b/imputed_dosage.tsv outputs_04b/demo_trait.tsv

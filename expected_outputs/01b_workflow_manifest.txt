@@ -1,0 +1,18 @@
+Python 3.12.13
+Platform Linux-6.18.35-x86_64-with-glibc2.39
+numpy 2.3.5 pandas 2.2.3 scikit-learn 1.8.0
+SEED 102
+   file sample_id                                                           sha256
+S01.txt       S01 4f03ed1bda139633d721751d18acb4ce66cd8625e49ea895103dc3eee172a35a
+S02.txt       S02 1f805e43339080a0e17d8b7feef4faacefba89d10cba19764ef528e1cb57cd8b
+S04.txt       S04 1e9f90a5aabc0e0e448f1728e95bdaebf7adec6ce193d349d645fb6c0c21d4b1
+S05.txt       S05 e616299a0ca033340b8c4896fa687613cb295e45b8a25e9382fb35f351117a8b
+SX3.txt       SX3 ba1104c737211b630b514f9228a641dc78768fe19c97d700e9fa5e230d3f1348
+expected but missing: ['S03']
+unexpected names: ['SX3']
+sample_id                       input                 output                                                                     command
+      S01 outputs_01_manifest/S01.txt results/S01.result.tsv analyze --input outputs_01_manifest/S01.txt --output results/S01.result.tsv
+      S02 outputs_01_manifest/S02.txt results/S02.result.tsv analyze --input outputs_01_manifest/S02.txt --output results/S02.result.tsv
+      S03 outputs_01_manifest/S03.txt results/S03.result.tsv analyze --input outputs_01_manifest/S03.txt --output results/S03.result.tsv
+      S04 outputs_01_manifest/S04.txt results/S04.result.tsv analyze --input outputs_01_manifest/S04.txt --output results/S04.result.tsv
+      S05 outputs_01_manifest/S05.txt results/S05.result.tsv analyze --input outputs_01_manifest/S05.txt --output results/S05.result.tsv

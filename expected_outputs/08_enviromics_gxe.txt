@@ -1,0 +1,21 @@
+Python 3.12.13
+Platform Linux-6.18.35-x86_64-with-glibc2.39
+numpy 2.3.5 pandas 2.2.3 scikit-learn 1.8.0
+SEED 801
+     temp  water      y
+env                    
+0    -1.5    0.9 -0.840
+1    -0.9    0.3 -0.478
+2    -0.3    0.7 -0.183
+3     0.3   -0.2  0.053
+4     0.9    0.1  0.247
+5     1.5   -0.7  0.804
+reaction-norm [intercept, slope] first5
+ [[-0.715  0.722]
+ [-0.555  0.424]
+ [ 1.808  0.652]
+ [ 1.126  0.18 ]
+ [-0.381  0.872]]
+shared-genotype/env random-record r 0.917
+leave-env-out r 0.857 RMSE 0.768
+new-environment predicted phenotype first5 [-0.513 -0.436  1.991  1.176 -0.136]

@@ -1,0 +1,20 @@
+Python 3.12.13
+Platform Linux-6.18.35-x86_64-with-glibc2.39
+numpy 2.3.5 pandas 2.2.3 scikit-learn 1.8.0
+SEED 1202
+environment gradient [-2.  -1.2 -0.4  0.4  1.2  2. ]
+   geno  env_id  env         y
+0     0       0 -2.0 -1.335085
+1     0       1 -1.2 -1.610656
+2     0       2 -0.4 -0.335825
+3     0       3  0.4  0.279783
+4     0       4  1.2  0.780009
+           scenario   model      r  RMSE   bias
+      random-record       G -0.025 2.270  0.014
+      random-record     G+E  0.883 0.993  0.006
+      random-record G+E+GxE  0.896 0.942  0.110
+leave-env-out e=2.0       G  0.413 3.218 -3.038
+leave-env-out e=2.0     G+E  0.413 1.061 -0.048
+leave-env-out e=2.0 G+E+GxE  0.620 0.943 -0.009
+recovery of genetic main effect r 0.882
+recovery of environment sensitivity r 0.76

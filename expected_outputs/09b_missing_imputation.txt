@@ -1,0 +1,12 @@
+Python 3.12.13
+Platform Linux-6.18.35-x86_64-with-glibc2.39
+numpy 2.3.5 pandas 2.2.3 scikit-learn 1.8.0
+SEED 902
+mechanism MCAR masked 0.182
+median NRMSE 1.011
+KNN NRMSE 0.995
+left_censor_random NRMSE 1.636
+mechanism low_abundance masked 0.173
+median NRMSE 1.343
+KNN NRMSE 1.252
+left_censor_random NRMSE 0.676

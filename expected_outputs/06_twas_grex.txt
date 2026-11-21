@@ -1,0 +1,8 @@
+Python 3.12.13
+Platform Linux-6.18.35-x86_64-with-glibc2.39
+numpy 2.3.5 pandas 2.2.3 scikit-learn 1.8.0
+SEED 601
+measured-expression r 0.632 true-genetic-expression r 0.415
+CV GReX-expression r 0.468 CV GReX-trait r 0.351
+simplified summary TWAS Z 6.547 denominator 0.424
+permuted measured-expression r -0.093 permuted GReX-trait r -0.0

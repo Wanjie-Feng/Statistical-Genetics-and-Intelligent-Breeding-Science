@@ -1,0 +1,11 @@
+Python 3.12.13
+Platform Linux-6.18.35-x86_64-with-glibc2.39
+numpy 2.3.5 pandas 2.2.3 scikit-learn 1.8.0
+SEED 1303
+samples/families/markers 432 24 220
+random 6-fold mean max genomic similarity 0.841
+  Ridge OOF r 0.664 RMSE 1.267
+  MLP OOF r 0.633 RMSE 1.324
+family 6-fold mean max genomic similarity 0.181
+  Ridge OOF r 0.29 RMSE 1.843
+  MLP OOF r 0.036 RMSE 2.335

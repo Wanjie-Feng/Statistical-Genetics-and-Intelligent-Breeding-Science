@@ -1,0 +1,21 @@
+Python 3.12.13
+Platform Linux-6.18.35-x86_64-with-glibc2.39
+numpy 2.3.5 pandas 2.2.3 scikit-learn 1.8.0
+SEED 1401
+training samples/markers 360 160
+training trait means [  8.191  39.941 121.44 ]
+DH/testcross records 480 960
+yield GS r to true genetic value 0.821
+protein GS r to true genetic value 0.889
+maturity GS r to true genetic value 0.859
+check [  8.316  40.339 123.983] target [  8.316  42.356 123.983] weights [0.4 0.4 0.2]
+pred-vs-true similarity rank r 0.76
+top20% predicted favorable precision against true top20% 0.589
+       favorable_testcross  favorable_DH  favorable_DH_prop  mean_pred_similarity  mean_true_similarity
+cross                                                                                                  
+3                     71.0          49.0              0.612                 0.741                 0.704
+5                     45.0          35.0              0.438                 0.681                 0.638
+2                     23.0          21.0              0.262                 0.627                 0.502
+0                     24.0          18.0              0.225                 0.639                 0.549
+1                     23.0          17.0              0.212                 0.630                 0.541
+4                      6.0           5.0              0.062                 0.566                 0.461

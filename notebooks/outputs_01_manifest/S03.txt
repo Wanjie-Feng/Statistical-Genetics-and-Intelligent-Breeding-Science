@@ -1,0 +1,2 @@
+sample_id	value
+S03	58

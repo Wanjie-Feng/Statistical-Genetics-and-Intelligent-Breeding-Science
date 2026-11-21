@@ -1,0 +1,24 @@
+Python 3.12.13
+Platform Linux-6.18.35-x86_64-with-glibc2.39
+numpy 2.3.5 pandas 2.2.3 scikit-learn 1.8.0
+SEED 1701
+train/test 840 360 vocabulary 20558
+ROC_AUC 1.0 average_precision 1.0
+reference_probability 0.9786 true_motif_interval 45-51
+ pos ref alt  delta_prob  inside_true_motif
+  48   T   A     -0.9763               True
+  47   G   C     -0.9760               True
+  48   T   C     -0.9760               True
+  47   G   T     -0.9758               True
+  48   T   G     -0.9757               True
+  49   G   T     -0.9756               True
+  47   G   A     -0.9753               True
+  49   G   A     -0.9750               True
+  49   G   C     -0.9746               True
+  46   C   G     -0.9707               True
+  46   C   T     -0.9703               True
+  50   C   G     -0.9690               True
+  46   C   A     -0.9678               True
+  50   C   T     -0.9638               True
+  50   C   A     -0.9629               True
+top15_inside_true_motif 15 / 15

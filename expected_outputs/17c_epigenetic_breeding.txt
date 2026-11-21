@@ -1,0 +1,10 @@
+Python 3.12.13
+Platform Linux-6.18.35-x86_64-with-glibc2.39
+numpy 2.3.5 pandas 2.2.3 scikit-learn 1.8.0
+SEED 1703
+parent_offspring_pairs/features 720 80
+mean_crossgen_r stable/induced 0.898 -0.038
+features_passing_r_ge_0.50 40 / 80
+generation2_candidate_mean -0.196
+generation2_selected_mean naive_all_epi -0.018 response 0.177
+generation2_selected_mean stability_filtered 0.052 response 0.248
