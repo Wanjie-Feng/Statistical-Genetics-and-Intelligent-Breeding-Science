@@ -80,4 +80,3 @@ python run_all.py
 | 第十八章 | `18c_breeding_decision.ipynb` | 18.11 综合实践三：编辑效应与基因组预测的多性状综合选择 |
 
 运行时各 notebook 会在 `notebooks/` 下生成 `outputs_*` 目录或图片文件，可随时删除后重新运行。
-# Statistical-Genetics-and-Intelligent-Breeding-Science
